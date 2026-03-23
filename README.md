@@ -88,6 +88,6 @@ EOF
 meson setup build
 ninja -C build
 sudo -E ninja -C build install
-```
 cd /tmp
 sudo rm -rf /tmp/chardonnay 2>/dev/null
+```
