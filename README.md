@@ -1,4 +1,7 @@
-#!/bin/bash
+# Chard Sommelier. This is a fork of Sommelier without a patch. 
+### This fixes a color inversion bug introduced on ChromeOS 145.
+### Enhances Sommelier to allow mouse capture, icon support, and context menus all at once. 
+
 cd /tmp
 sudo rm -rf /tmp/chardonnay 2>/dev/null
 git clone https://github.com/shadowed1/chardonnay.git /tmp/chardonnay
