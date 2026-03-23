@@ -2,7 +2,7 @@
 ### This fixes a color inversion bug introduced on ChromeOS 145.
 ### Enhances Sommelier to allow mouse capture, icon support, and context menus all at once. 
 
-`
+```
 cd /tmp
 sudo rm -rf /tmp/chardonnay 2>/dev/null
 git clone https://github.com/shadowed1/chardonnay.git /tmp/chardonnay
@@ -87,8 +87,8 @@ for r in results:
 EOF
 
 meson setup build
-`
 ninja -C build
 sudo -E ninja -C build install
+```
 cd /tmp
 sudo rm -rf /tmp/chardonnay 2>/dev/null
